@@ -2,7 +2,7 @@ test web Socket
 
 1 - For connect with de WS use de url ws://localhost:8080/
 
-2 - For init de connection with de WS use the message : { "serviceID": "init_connection" } , this will show all de serviceID available
+2 - For init the connection with de WS use the message : { "serviceID": "init_connection" } , this will show all de serviceID available
 
 3 - For register a player user the message { "serviceID": "register_player", "player": "jorge" }, this will return the first question like :
 {
@@ -19,7 +19,7 @@ test web Socket
     "questionID": 1
   }
 }
- You have to answer de question of atributte with any position of the array answer ( atributte options )
+ You have to answer the question of atributte "question" with any position of the array answer ( atributte "options" )
 
  4 - For response the question use a message like { "serviceID": "answer_question", "player": "teresa", "questionID": 1, "answerID": 1 } 
 
