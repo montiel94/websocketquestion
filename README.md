@@ -56,9 +56,9 @@ until you finished all the questions, finishing all the question you will receiv
 
 9 - You can disconnect the connection and continue answering the questions, the WS persist the client data
 
-10 - For create a container the aplication, run the commands :
+10 - For create a container aplication, run the commands :
       docker build -t <your username>/node-web-app .
-      docker run -p 49160:8080 -d <your username>/node-web-app
+      docker run -p 8080:8080 -d <your username>/node-web-app
 
 11 - For run the application in local enviroment, run the commands : 
       npm i 
